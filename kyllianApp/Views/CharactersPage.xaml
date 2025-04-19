@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodels="clr-namespace:kyllianApp.ViewModels"
              x:Class="kyllianApp.Views.CharactersPage"
+             xmlns:viewmodels="clr-namespace:kyllianApp.ViewModels"
+             xmlns:models="clr-namespace:kyllianApp.Models"
              Title="Rick et Morty">
 
     <ContentPage.BindingContext>
@@ -14,9 +15,17 @@
             <DataTemplate>
                 <Frame Margin="10" Padding="10" BackgroundColor="White" CornerRadius="12">
                     <StackLayout Orientation="Horizontal" Spacing="10">
-                        <Image Source="{Binding Image}" WidthRequest="80" HeightRequest="80"/>
+                        <Image Source="{Binding Image}" WidthRequest="80" HeightRequest="80">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnCharacterTapped" CommandParameter="{Binding}" />
+                            </Image.GestureRecognizers>
+                        </Image>
                         <StackLayout>
-                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="20"/>
+                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="20">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnCharacterTapped" CommandParameter="{Binding}" />
+                                </Label.GestureRecognizers>
+                            </Label>
                             <Label Text="{Binding Species}" FontSize="14" TextColor="Gray"/>
                             <Label Text="{Binding Status}" FontSize="14" TextColor="DarkGray"/>
                         </StackLayout>
@@ -26,3 +35,5 @@
         </CollectionView.ItemTemplate>
     </CollectionView>
 </ContentPage>
+
+

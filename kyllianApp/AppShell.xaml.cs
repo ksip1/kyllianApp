@@ -1,10 +1,13 @@
-﻿namespace kyllianApp
+﻿using kyllianApp.Views;
+
+namespace kyllianApp;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
+    public AppShell()
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+
+        Routing.RegisterRoute(nameof(CharacterDetailPage), typeof(CharacterDetailPage));
     }
 }

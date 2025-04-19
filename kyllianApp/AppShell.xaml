@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:views="clr-namespace:kyllianApp.Views"
-       xmlns:local="clr-namespace:kyllianApp.Views"
-       x:Class="kyllianApp.AppShell">
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:kyllianApp.Views"
+    x:Class="kyllianApp.AppShell">
 
     <TabBar>
         <ShellContent 
             Title="Accueil"
             Icon="home.png"
             ContentTemplate="{DataTemplate views:HomePage}" />
+
         <Tab Title="Personnages" Icon="person.png">
-            <ShellContent ContentTemplate="{DataTemplate local:CharactersPage}" />
+            <ShellContent ContentTemplate="{DataTemplate views:CharactersPage}" />
         </Tab>
     </TabBar>
 </Shell>
