@@ -956,3 +956,5 @@ C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-windows10.0.19
 C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentUI.cs
 C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\logoapp.scale-100.png
+C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\logoapp.scale-100.png

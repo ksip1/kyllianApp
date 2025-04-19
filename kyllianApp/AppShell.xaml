@@ -6,13 +6,21 @@
     x:Class="kyllianApp.AppShell">
 
     <TabBar>
-        <ShellContent 
-            Title="Accueil"
-            Icon="home.png"
-            ContentTemplate="{DataTemplate views:HomePage}" />
+       
+        <Tab Title="Accueil" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
+        </Tab>
 
+       
         <Tab Title="Personnages" Icon="person.png">
             <ShellContent ContentTemplate="{DataTemplate views:CharactersPage}" />
         </Tab>
+
+        
+        <Tab Title="Ajouter" Icon="plus.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AddCharacterPage}" />
+        </Tab>
     </TabBar>
+
 </Shell>
+

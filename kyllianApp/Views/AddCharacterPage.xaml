@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kyllianApp.Views.AddCharacterPage"
+             Title="Ajouter un personnage">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <Entry Placeholder="Nom" Text="{Binding Name}" />
+            <Entry Placeholder="Espèce" Text="{Binding Species}" />
+            <Entry Placeholder="Statut" Text="{Binding Status}" />
+            <Entry Placeholder="URL de l'image" Text="{Binding Image}" />
+
+            <Button Text="Ajouter" Command="{Binding AddCharacterCommand}" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
