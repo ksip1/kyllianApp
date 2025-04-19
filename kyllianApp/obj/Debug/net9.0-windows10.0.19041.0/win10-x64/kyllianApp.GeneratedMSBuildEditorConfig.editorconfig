@@ -70,6 +70,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = kyllianApp.Views.FunZonePa
 build_metadata.AdditionalFiles.TargetPath = Views\FunZonePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FunZonePage.xaml
 
+[C:/Users/kevan/Projet Maui/kyllianApp/kyllianApp/Views/GifPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = kyllianApp.Views.GifPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GifPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GifPage.xaml
+
 [C:/Users/kevan/Projet Maui/kyllianApp/kyllianApp/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = kyllianApp.Views.HomePage.xaml

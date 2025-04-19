@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kyllianApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2c953ebbaf19e555fe10b3cf28723dee1316d7e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dc6136f83aa0afa84bd28d476d8661c27fe2b0d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("kyllianApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kyllianApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

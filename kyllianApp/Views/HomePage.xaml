@@ -10,17 +10,29 @@
     </ContentPage.BindingContext>
 
     <StackLayout Padding="20" Spacing="20" HorizontalOptions="Center">
-        <!-- Ajout du logo -->
+        
         <Image Source="logoapp.png"
                HeightRequest="150"
                WidthRequest="150"
                HorizontalOptions="Center" />
 
-        <!-- Description de l'application -->
+        
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+            <Image Source="rick.png"
+                   HeightRequest="200"
+                   WidthRequest="200" />
+            <Image Source="morty.png"
+                   HeightRequest="200"
+                   WidthRequest="200" />
+        </HorizontalStackLayout>
+
+        
         <Label Text="Découvrez Rick et Morty Personnage, votre application pour explorer et gérer vos personnages préférés."
                FontSize="18"
                HorizontalTextAlignment="Center"
                TextColor="{StaticResource Gray500}" />
+        <Button Text="Voir un GIF" Clicked="OnGifButtonClicked" />
+
     </StackLayout>
 </ContentPage>
 
