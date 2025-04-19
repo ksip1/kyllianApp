@@ -20,6 +20,11 @@
         <Tab Title="Ajouter" Icon="plus.png">
             <ShellContent ContentTemplate="{DataTemplate views:AddCharacterPage}" />
         </Tab>
+        
+        <Tab Title="FunZone" Icon="gamepad.png">
+            <ShellContent ContentTemplate="{DataTemplate views:FunZonePage}" />
+        </Tab>
+
     </TabBar>
 
 </Shell>
