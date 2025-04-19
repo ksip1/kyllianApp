@@ -2821,3 +2821,4 @@ C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-android\stamp\
 C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\kevan\Projet Maui\kyllianApp\kyllianApp\obj\Debug\net9.0-android\resizetizer\r\drawable\logoapp.png

@@ -9,12 +9,18 @@
         <vm:HomeViewModel />
     </ContentPage.BindingContext>
 
-    <StackLayout Padding="20">
-        <Label Text="Bienvenue dans kyllianApp"
-               FontSize="24"
+    <StackLayout Padding="20" Spacing="20" HorizontalOptions="Center">
+        <!-- Ajout du logo -->
+        <Image Source="logoapp.png"
+               HeightRequest="150"
+               WidthRequest="150"
                HorizontalOptions="Center" />
-        <Label Text="Page d’accueil"
+
+        <!-- Description de l'application -->
+        <Label Text="Découvrez Rick et Morty Personnage, votre application pour explorer et gérer vos personnages préférés."
                FontSize="18"
-               HorizontalOptions="Center" />
+               HorizontalTextAlignment="Center"
+               TextColor="{StaticResource Gray500}" />
     </StackLayout>
 </ContentPage>
+

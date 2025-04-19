@@ -486,4 +486,5 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Gray200}}" />
     </Style>
 
+
 </ResourceDictionary>
